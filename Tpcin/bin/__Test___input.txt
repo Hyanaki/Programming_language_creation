@@ -1,0 +1,7 @@
+<Root>
+	<Group; nom="adieu">
+		<Transform; type=Translation{10,10,15}; nom="Benbou">
+			<Geometry; 	type=Cone{1.,1.,1,1}; nom="Robert"/>
+		</Transform>
+	</Group> 
+</Root>

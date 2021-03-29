@@ -1,0 +1,30 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl troncFeuillu
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+map_Kd tronc02.bmp
+#
+newmtl feuillageFeuillu
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+map_Kd -s 3.0 3.0 1.0 feuille01.bmp
+#
+newmtl herbe
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+map_Kd -s 20.0 20.0 1.0 herbe.bmp
+#
+# EOF

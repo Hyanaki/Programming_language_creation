@@ -1,0 +1,66 @@
+<Root>
+<Transform; type = Translation{100,50,100}; nom = "centre";>
+	<Group; nom= "grp1";>
+	<Transform;  type = Translation{0,190,0}; nom = "hauteur";>
+		<Transform;  type = Rotation{1,0,0,90}; nom = "chap";>
+			
+			<Geometry;     type = Cylinder{30,50,45,15,20}; nom = "chapeau";  Material : nom = "mat1"; Ka{0.2,0.2,1}, Kd{0.8,0.2,0}, Ks{0.5,0.3,0}, d = 1, Ns=1, textureScale{1,1}, textureFile = "";/>	
+		</Transform>
+	</Transform>
+	<Transform;  type = Translation{0,125,0}; nom = "hauteur2";>
+		<Geometry;     type = Sphere{45,35,35}; nom = "tete";  Material : nom = "chair"; Ka{0.97,0.76,0.60}, Kd{0.99,0.76,0.67}, Ks{0.99,0.76,0.67}, d = 1, Ns=1, textureScale{1,1}, textureFile = "";/>
+	</Transform>
+	<Transform;  type = Translation{0,90,0}; nom = "hauteur3";>
+		<Transform;  type = Rotation{1,0,0,90}; nom = "chap";>
+			<Geometry;     type = Cylinder{50,50,120,50,50}; nom = "corps";  Material : nom = "coorp"; Ka{0.96,1,0.23}, Kd{0.96,1,0.23}, Ks{0.96,1,0.23}, d = 1, Ns=1, textureScale{1,1}, textureFile = "";/>	
+		</Transform>
+	</Transform>
+	<Transform;  type = Translation{0,110,50}; nom = "hauteur4";>
+		<Transform; type=Scale{7,2,2}; nom = "longueur";>
+			<Geometry;     type = Cube{5}; nom = "bouchee";  Material : nom = "bouche"; Ka{0.73,0.04,0.04}, Kd{0.73,0.04,0.04}, Ks{0.73,0.04,0.04}, d = 1, Ns=1, textureScale{1,1}, textureFile = "";/>
+		</Transform>
+	</Transform>
+	<Transform;  type = Translation{0,140,45}; nom = "hauteur5";>
+		<Transform; type=Scale{6,0.5,1}; nom = "longueur";>
+			<Transform;  type = Rotation{1,0,0,90}; nom = "chap";>
+			<Geometry;     type = Cube{4}; nom = "lunette";  Material : nom = "blanc"; Ka{1,1,1}, Kd{1,1,1}, Ks{1,1,1}, d = 1, Ns=1, textureScale{1,1}, textureFile = "";/>
+			</Transform>
+		</Transform>
+	</Transform>
+
+	<Transform;  type = Translation{-25,140,40}; nom = "hauteur6";>
+			<Transform;  type = Rotation{0,1,0,180}; nom = "oeill";>
+			<Geometry;     type = Teapot{10}; nom = "oeil1";  Material : nom = "blanc";/> 
+	
+			</Transform>
+	</Transform>
+	<Transform;  type = Translation{25,140,40}; nom = "hauteur7";>
+			<Geometry;     type = Teapot{10}; nom = "oeil2";  Material : nom = "blanc";/>
+	</Transform>
+	
+</Group>
+
+<Transform;  type = Translation{105,75,25}; nom = "hauteur9";>
+	<Group; nom = "grp2";>
+		<Geometry;     type = Sphere{15,15,15}; nom = "m1d";  Material : nom = "chair";/>
+		
+	</Group>
+</Transform>
+
+<Transform;  type = Translation{-105,75,25}; nom = "hauteur9";>
+	<Group; nom = "grp2";> </Group>
+</Transform>
+
+<Transform;  type = Translation{35,-50,0}; nom = "hauteur9";>
+	<Group; nom = "grp3";>
+		<Transform; type = Scale{2,0.5,1}
+			<Geometry;     type = Sphere{15,15,15}; nom = "m1d";  Material : nom = "vert"; Ka{0,1,0}, Kd{0,1,0}, Ks{0,1,0}, d = 1, Ns=1, textureScale{1,1}, textureFile = "";/>
+		</Transform>
+	</Group>
+</Transform>
+
+<Transform;  type = Translation{-35,-50,0}; nom = "hauteur9";>
+	<Group; nom = "grp3";> </Group>
+</Transform>
+</Transform>
+</Root>
